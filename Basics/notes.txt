@@ -1,0 +1,78 @@
+there are three tupe of variable in js -
+
+var (Purana Tarika – Avoid Karna Better Hai)
+📌 Features:
+
+Function scope hota hai (block scope nahi)
+
+Dubara declare kar sakte ho
+
+Value change kar sakte ho
+
+Hoisting hoti hai (upar le jaata hai, par undefined hota hai)
+
+
+
+
+let (Modern JavaScript – Mostly Use Hota Hai)
+📌 Features:
+
+Block scope hota hai { }
+
+Dubara declare nahi kar sakte
+
+Value change kar sakte ho
+
+Hoisting hoti hai (par use se pehle error deta hai)
+
+
+
+
+const (Constant Value – Fix Rehti Hai)
+📌 Features:
+
+Block scope
+
+Dubara declare ❌
+
+Dubara assign ❌
+
+Declare karte time value deni zaroori
+
+Hoisting hoti hai (TDZ ke sath)
+
+
+
+DATATYPES-  
+String- Character value
+number-> 2 to power 53
+boolean-> True/False
+Null-> standalone value
+undefined-> abhi value assign nahi huyee
+Symbol->for ubiqness
+//all are premitive data type
+
+
+agar datatype ka nam janta hai to typeof() ka use karte hai.
+
+
+Conversion and operation -:
+
+Conversion operation means changing one data type into another in JavaScript.
+Types of Conversion
+
+JavaScript has two types of conversion:
+
+Implicit Conversion (Automatic)
+
+Explicit Conversion (Manual)
+
+
+Quick Revision Points 📝
+
+✔ JavaScript converts types automatically (Implicit)
+✔ We can convert manually (Explicit)
+✔ + works as string join if any operand is string
+✔ true = 1, false = 0
+✔ "", 0, null → false
+✔ Use === instead of ==
